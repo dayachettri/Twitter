@@ -23,7 +23,7 @@ async function getTweetsAndInsertHTML() {
         const date = new Date(tweet.creationDatetime);
 
         return `
-        <div class="twitter-post id=${tweet._id}">
+        <div class="twitter-post id=${tweet._id} "data-aos="fade-up">
           <div class="twitter-post-retweeted">
             <svg
               viewBox="0 0 24 24"
